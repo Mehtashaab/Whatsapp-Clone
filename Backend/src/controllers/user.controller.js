@@ -1,4 +1,4 @@
-import preventError from "../middlewares/catchAsyncError.middleware.js";
+import preventError from "../middlewares/preventError.middleware.js";
 import { User } from "../models/user.model.js";
 import bcrypt from "bcrypt";
 import { sendToken } from "../utils/sendToken.util.js";
